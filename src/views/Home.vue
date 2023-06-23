@@ -7,7 +7,9 @@ export default {
 </script>
 
 <template>
-  <div class="icon"></div>
+  <router-link to="/card-game">
+    <div class="icon"></div>
+  </router-link>
 </template>
 
 <style scoped>
